@@ -21,10 +21,14 @@ module.exports = {
     filename:"./public/bundle.js"
   },
   resolve: {
-
+    // path:__dirname,
+    modules: [
+      "node_modules",
+      path.resolve(__dirname,"./app/components")
+    ],
     alias: {
       //Greeter: path.resolve(__dirname, 'public/components/Greeter.jsx'),
-      Main: path.resolve(__dirname, 'app/components/Main.jsx'),
+      // TodoApp: path.resolve(__dirname, 'app/components/TodoApp.jsx'),
       applicationStyles: path.resolve(__dirname,'app/styles/app.css')
 
     },

@@ -1,11 +1,11 @@
 const React = require('react');
-var Main = React.createClass({
+var TodoApp = React.createClass({
   render: function () {
     return (
       <div>
         <div >
           <div >
-            <p>Main.jsx Rendered</p>
+            <p>TodoApp.jsx Rendered</p>
             {this.props.children}
           </div>
         </div>
@@ -15,4 +15,4 @@ var Main = React.createClass({
   }
 });
 
-module.exports = Main;
+module.exports = TodoApp;
