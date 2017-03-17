@@ -1,9 +1,9 @@
 const React = require('react');
 var Todo = React.createClass({
   render: function() {
-    var {id, text} = this.props;
+    var {id, text, index} = this.props;
     return (
-      <div><p>{id}. {text}</p></div>
+      <div><p>{index}. {text}</p></div>
     );
   }
 });

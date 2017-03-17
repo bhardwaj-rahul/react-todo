@@ -24,6 +24,7 @@
     "css-loader": "^0.27.3",
     "foundation-sites": "^6.3.1",
     "jquery": "^3.1.1",
+    "node-uuid": "^1.4.7",
     "script-loader": "^0.7.0",
     "style-loader": "^0.13.2",
     "webpack": "^2.2.1"

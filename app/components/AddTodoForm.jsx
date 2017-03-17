@@ -6,6 +6,7 @@ var AddTodoForm = React.createClass({
 
     var newTodo = this.refs.newTodo.value;
     if (newTodo) {
+      this.refs.newTodo.value = '';
       this.props.onAddTodo(newTodo);
     }
   },
