@@ -24,7 +24,8 @@ module.exports = {
     // path:__dirname,
     modules: [
       "node_modules",
-      path.resolve(__dirname,"./app/components")
+      path.resolve(__dirname,"./app/components"),
+      path.resolve(__dirname,"./app/api")
     ],
     alias: {
       //Greeter: path.resolve(__dirname, 'public/components/Greeter.jsx'),
