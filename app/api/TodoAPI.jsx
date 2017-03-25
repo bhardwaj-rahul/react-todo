@@ -29,9 +29,9 @@ module.exports = {
     });
 
     filteredTodos.sort(function (a, b) {
-      if (!a.showCompleted && b.showCompleted) {
+      if (!a.completed && b.completed) {
         return -1;
-      } else if (a.showCompleted && !b.completed){
+      } else if (a.completed && !b.completed){
         return 1;
       } else {
         return 0;
