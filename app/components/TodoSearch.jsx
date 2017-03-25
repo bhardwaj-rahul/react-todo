@@ -7,7 +7,7 @@ var TodoSearch = React.createClass({
   },
   render: function() {
     return (
-      <div>
+      <div className="container__header">
         <div>
           <input type ='search' placeholder='Search for a todo' ref='searchTodo' onChange={this.handleSearch}/>
         </div>
